@@ -10,7 +10,7 @@ public class main {
 	System.out.println("Introduce el numero para calcular sus divisores, sin incluirse a si mismo.");
 	n=teclado.nextInt();
 	
-	System.out.println("los divisores del numero introducido son: ");
+	System.out.println("los divisores del numero introducido son: ");//jh
 	for(int x=1;x<n;x++){
 		int calculo=n%x;
 		if(calculo==0){
